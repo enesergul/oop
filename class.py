@@ -1,5 +1,4 @@
-# integer = 10
-# string = "messi" "barcelona football team"
+
 integer1 = 33
 string1 = "messi"
 
@@ -9,8 +8,7 @@ employee1_age = 33
 employee1_address = "asdasdas"
 
 class Employee:
-    # attribute = age, address, name
-    # behaviour = pass 
+
     pass    
 
 employee1 = Employee()
