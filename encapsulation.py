@@ -4,7 +4,7 @@ class BankAccount(object):
         self.name = name  # global
         self.__money = money  # private
         self.address = address
-        
+         
     # get and set global
     def getMoney(self):
         return self.__money
