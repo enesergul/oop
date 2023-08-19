@@ -1,17 +1,14 @@
 from abc import ABC, abstractmethod
 class Shapes(ABC):
     """
-        Shape = super class/abstract class
-        
-
+        Shape = super class/abstract class  
     """
     @abstractmethod
     def area(self): pass
     @abstractmethod
     def perimeter(self): pass
     def toString(self): pass
-
-
+    
 class Square(Shapes):
     def __init__(self,edge):
         self.__edge = edge
@@ -26,9 +23,7 @@ class Square(Shapes):
     def toString(self):        
         print("Square edge : ", self.__edge)
 
-
-class Circle(Shapes):
-        
+class Circle(Shapes):        
         def __init__(self,radius):
             self.__radius = radius
             self.PI = 3.14
